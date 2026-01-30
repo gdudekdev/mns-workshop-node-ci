@@ -1,0 +1,29 @@
+{
+  "name": "mns-workshop-node-ci",
+  "version": "1.0.0",
+  "description": "Workshop cours devops mns",
+  "homepage": "https://github.com/gdudekdev/mns-workshop-node-ci#readme",
+  "bugs": {
+    "url": "https://github.com/gdudekdev/mns-workshop-node-ci/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdudekdev/mns-workshop-node-ci.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "globals": "^17.2.0"
+  }
+}
